@@ -1,9 +1,0 @@
-{
-  "/not-found": "app/not-found.js",
-  "/heritage/wisdom/page": "app/heritage/wisdom/page.js",
-  "/heritage/page": "app/heritage/page.js",
-  "/culture/page": "app/culture/page.js",
-  "/search/page": "app/search/page.js",
-  "/ai-chat/page": "app/ai-chat/page.js",
-  "/page": "app/page.js"
-}

@@ -68,7 +68,7 @@ export default function Navbar({ currentPage = '', darkMode = true }: NavbarProp
   const navItems = [
     { name: '首页', href: '/' },
     { name: '民族风情', href: '/culture' },
-    { name: '智慧传承', href: '/heritage/wisdom' },
+    { name: '数字人影像馆', href: '/heritage/wisdom' },
     { name: '语言学习', href: '/language' },
   ];
 

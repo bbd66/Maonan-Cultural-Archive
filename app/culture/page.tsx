@@ -12,15 +12,17 @@ export default function Culture() {
   const router = useRouter();
 
   const sections = [
-    { id: 'intro', title: '毛南族简介' },
-    { id: 'production', title: '生产' },
-    { id: 'architecture', title: '建筑' },
-    { id: 'stone-carving', title: '石刻' },
-    { id: 'farming', title: '农耕' },
-    { id: 'food', title: '饮食' },
-    { id: 'clothing', title: '服饰' },
-    { id: 'language', title: '语言' },
-    { id: 'religion', title: '宗教' },
+    { id: 'xiangjiang-wuxiang', title: '环江五香' },
+    { id: 'huazhimao', title: '花竹帽传说' },
+    { id: 'tonggu', title: '铜鼓' },
+    { id: 'shike-jiyi', title: '石刻技艺' },
+    { id: 'maonan-xi', title: '毛南戏' },
+    { id: 'ziran-fengguang', title: '自然风光' },
+    { id: 'feitao', title: '肥套' },
+    { id: 'xisu', title: '习俗' },
+    { id: 'fushi', title: '服饰' },
+    { id: 'wenhua-zongkuo', title: '文化总括' },
+    { id: 'mingcheng-youlai', title: '名称由来' },
   ];
 
   const scrollToSection = (id: string) => {
@@ -167,65 +169,80 @@ export default function Culture() {
 
           <div className="px-4 md:px-8 py-8">
             <div className="prose max-w-none text-gray-900 leading-relaxed space-y-4">
-              <div id="intro">
+              <div id="xiangjiang-wuxiang">
+                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">环江五香</h3>
                 <p className="text-base font-['KaiTi']">
-                  毛南族，现有7.1万多人。毛南族有自己的语言，属汉藏语系壮侗语族，通用汉语；主要聚居在中国云贵高原的茅南山、九万大山、凤凰山和大石山一带，而广西环江县的上南、中南、下南一带山区更是被称为"三南"，素有"毛南之乡"之称。
+                  环江五香是毛南族待客珍味：香猪皮薄肉嫩、香而不腻；香牛（下南菜牛）肉质鲜甜；香鸭紧实无脂；香糯一家煮饭十家香；香菇肥厚鲜香。依托喀斯特生态孕育，是国家地理标志美味。五香既是餐桌盛宴，也是毛南族农耕智慧的结晶，一口尝尽环江山水的灵秀与烟火。
                 </p>
               </div>
 
-              <div id="production">
-                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">生产</h3>
+              <div id="huazhimao">
+                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">花竹帽传说</h3>
                 <p className="text-base font-['KaiTi']">
-                  毛南族主要从事农业生产，兼营各种副业。毛南族饲养的菜牛远销上海、香港等地，颇有声誉；他们编织的竹器，工艺精湛，著名的花竹帽，精致美观而又实用，既是毛南族的手工艺品，又是姑娘们珍爱的装饰品。
+                  花竹帽毛南语称 “顶卡花”，是族宝与定情信物。传说青年为救金凤凰获金竹，织就精美花帽。雨中他将帽子赠予姑娘，二人一见倾心、以帽为媒。从此花竹帽成为爱情象征，匠人以金竹墨竹精编，纹路细密如绣。它不仅是雨具，更是毛南族善良与浪漫的化身，编织着代代相传的美好情缘。
                 </p>
               </div>
 
-              <div id="architecture">
-                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">建筑</h3>
+              <div id="tonggu">
+                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">铜鼓</h3>
                 <p className="text-base font-['KaiTi']">
-                  毛南族人的居室为干栏式样，干栏内外山墙全是以木、石为构架，结实稳当。干栏一般为两层，上面住人，下面圈畜，门外有晒台，采光适宜而又可以防潮，这是中国南方民族民居的杰作。干栏的楼柱是石柱，楼内的台阶是石条，房基和山墙也大部分是由石块制成，连门槛、晒台、牛栏、桌子、凳子、水缸、水盆等也都是石料垒砌或雕凿的，这些石制用品上雕刻的花鸟鱼虫更是美不胜收。
+                  毛南族铜鼓是礼器重器，鼓声深沉悠远，象征权力与吉祥。多用于祭祀、节庆、婚丧大典，是族群凝聚力的象征。铜鼓纹饰精美，铸有太阳、蛙纹等图腾，藏着自然崇拜与祖先记忆。节庆时鼓乐齐鸣，舞步随鼓点起落，传递着毛南人对天地的敬畏与对生活的热忱，是千年不熄的文化之声。
                 </p>
               </div>
 
-              <div id="stone-carving">
-                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">石刻</h3>
+              <div id="shike-jiyi">
+                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">石刻技艺</h3>
                 <p className="text-base font-['KaiTi']">
-                  毛南族石墓上的雕刻远近闻名，如今存留在凤凰山上的古墓群就是毛南石雕的典型代表。历来重视精雕细刻的毛南族石匠，在冰冷的石头上把花鸟鱼虫、人物、用具都赋予了生命。毛南族石匠的创作既不描线也不起稿，全凭手中的刀凿根据脑中的构思在石上即兴雕刻，创作出一个个栩栩如生的形象。
+                  毛南族石刻是国家级非遗。匠人以青石为材，雕刻三界公、麒麟、花鸟等图腾，刀法刚劲、寓意吉祥。多用于墓碑、宗祠、神龛，线条古朴传神，融道教信仰与民俗美学。石刻历风雨而不朽，记录着家族谱系与民族信仰，是刻在石头上的毛南史诗。
                 </p>
               </div>
 
-              <div id="farming">
-                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">农耕</h3>
+              <div id="maonan-xi">
+                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">毛南戏</h3>
                 <p className="text-base font-['KaiTi']">
-                  毛南族居住的地方重峦叠嶂，耕地不足，他们在石山岩缝中把每一寸土地都开发出来，垒石保土，可以说惜土如金。毛南族人的耕作极其精细，水田往往要一遍又一遍地翻耕，把田中的全部土疙瘩捣碎再栽秧，精细耕作，所以他们的田地粮食产量都很高。不仅如此，毛南族人民很早就在山地的种植中采用密植、套种、间种等方法，为岭南西部的农耕积累了丰富的经验。
+                  毛南戏由肥套仪式发展而来，融山歌、舞蹈、说唱于一体。剧目多取自民间传说与生活故事，如《莫一大王》《鲁班仙》。行当简单，以鼓、锣、唢呐伴奏，对白质朴、载歌载舞。贴近乡土、通俗易懂，是毛南人抒发情感、记录历史的舞台，也是深山里绽放的民俗艺术之花。
                 </p>
               </div>
 
-              <div id="food">
-                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">饮食</h3>
+              <div id="ziran-fengguang">
+                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">自然风光</h3>
                 <p className="text-base font-['KaiTi']">
-                  毛南族人的主食为大米、玉米，蔬菜有豌豆、白菜、南瓜、豆角、萝卜等。在节日的宴席上，豆腐是重要的副食品。毛南族人民十分好客，客人到家都待为上宾，他们热情地把家里腌好的酸肉、酸螺丝、酸菜都端出来款待客人，而且还要请客人品尝最有民族风味的"毛南饭"。
+                  环江毛南山乡坐拥世界级喀斯特地貌，九万大山层峦叠翠，牛角寨瀑布群飞珠溅玉，大小环江蜿蜒流淌。峰林耸立、溶洞奇绝，原始生态保存完好，绿意漫山野。这里是世界自然遗产地，山为骨、水为魂，云雾缭绕如仙境，滋养着毛南族世代繁衍生息，是藏在桂西北的秘境山水。
                 </p>
               </div>
 
-              <div id="clothing">
+              <div id="feitao">
+                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">肥套</h3>
+                <p className="text-base font-['KaiTi']">
+                  “肥套” 是毛南族语言，汉语意为 “还愿”，是民族古老的祭祀仪式，更是代代相传的文化瑰宝。相传孤儿仲定向万岁娘娘求子得福却忘还愿，遭惩戒后诚心悔过，以酒肉祭神终得圆满，这便是肥套的由来。仪式融合歌舞、乐戏，承载着毛南人对天地自然的敬畏，寄托着民族生生不息、风调雨顺、五谷丰登的美好祈愿。
+                </p>
+              </div>
+
+              <div id="xisu">
+                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">习俗</h3>
+                <p className="text-base font-['KaiTi']">
+                  毛南族除了常见节日外，还有独具特色的正月十五 “放鸟飞”。传说心灵手巧的小鸟姑娘为帮未婚夫过关，用菖蒲竹叶编织百鸟，吹气使其化为真鸟，捡回错撒的糯谷种，最终如愿成婚。后人便沿袭此俗，在元宵编百鸟、放鸟飞，既纪念这段浪漫佳话，也寄托着毛南族人对美好生活、丰收吉祥的期盼，充满独特的民族浪漫。
+                </p>
+              </div>
+
+              <div id="fushi">
                 <h3 className="text-xl font-semibold mb-2 font-['SimHei']">服饰</h3>
                 <p className="text-base font-['KaiTi']">
-                  毛南族男女都喜欢穿蓝色或青色大襟衫和对襟衫，妇女穿十分漂亮的镶有两道花边的右开襟上衣，裤子较宽并滚着花边，妇女们还喜欢把头发盘成发髻，喜欢佩带首饰，胸前有银、玉等装饰品，尤其喜欢戴花竹做的帽子。
+                  毛南族的美，内敛而温柔，藏在服饰的一针一线里。女装灵动秀丽，交领礼仪端庄，百褶裙轻盈飘逸；男装简约干练，对襟短衫适配劳作，低调纹样尽显底蕴。银簪、头巾、绣艺与长裙相映，既显民族韵味，又含少女灵动。每件服饰承载着毛南族的审美与记忆，代代织就着不变的文化传承。
                 </p>
               </div>
 
-              <div id="language">
-                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">语言</h3>
+              <div id="wenhua-zongkuo">
+                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">文化总括</h3>
                 <p className="text-base font-['KaiTi']">
-                  毛南族有本族的语言，但没有本族的文字，他们历来学习和使用汉语。毛南语属于汉藏语系壮侗语族侗水语支，在语音、语调、语序以及基本词汇方面与同一语族的壮语、侗语、仫佬语和水语有许多共同点和相似之处，尤其与水语更为接近。由于毛南人民长期与壮、汉族人民密切交往，所以许多人都能操壮语和汉语（柳州官语），毛南族还借用汉字的音义记录毛南语，创成"土俗字"，用来记录本民族的民歌和祭祀用语。
+                  毛南族傩文化历史悠久，傩面是傩舞、傩戏不可或缺的核心道具，环江傩面广场便生动展现了这份文化精髓。精致的花竹帽以金竹精编、红油浸染，曾是浪漫定情信物，如今已是国家级非遗。蓝底红纹的民族服饰刺绣精美、珠缀灵动，尽显民族灵气。古朴傩面、精巧竹帽、雅致纹样，都是毛南族的文化密码，值得我们共同守护传承。
                 </p>
               </div>
 
-              <div id="religion">
-                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">宗教</h3>
+              <div id="mingcheng-youlai">
+                <h3 className="text-xl font-semibold mb-2 font-['SimHei']">名称由来</h3>
                 <p className="text-base font-['KaiTi']">
-                  毛南族是个信奉多神的民族，他们所信仰的原始教名目很多，其中主要是动植物崇拜。
+                  毛南族的族名藏着千年历史。其名最早见于宋代，记作 “毛滩”，清代称 “毛南”，民国时正式使用 “毛南” 二字，最初均为地名。随着族人形成共同地域、语言与习俗，便自称为毛南人。新中国成立后，正式定名毛南族，先民自古聚居广西环江，由当地土著发展而来。一个族名，便是一段厚重的民族发展史。
                 </p>
               </div>
             </div>
